@@ -5,6 +5,7 @@ html, body {
     padding: 0;
     background-color: #5c5c5c; /* Match your .App background color */
     height: 100%;
+    display: flex;
   }
 
 .app-body{
@@ -34,7 +35,7 @@ width: 100%;
 background-color: #333;
 padding: 10px; /* Add padding for spacing */
 color: white; /* Adjust text color */
-text-align: center; 
+text-align: center;
 }
 
 .App {
