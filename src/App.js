@@ -39,7 +39,7 @@ function App() {
       {!displayInfo ? (
         <div className="content">
           <div className="app-body">
-            <img src={cow} alt="Cow" />
+            <img src={cow} alt="Cow" width="200px" height="200px" />
             <div className="input-section">
               <form onSubmit={(e) => handleSubmit(e)}>
                 <textarea
@@ -62,7 +62,7 @@ function App() {
         </div>
       ) : (
         <div className='results'>
-          <div className='Box'> 
+          <div className='Boxinput'> 
             <h1 className='title'>Was this Text Bias or Bull?</h1>
             <hr/>
             <textarea
@@ -83,6 +83,7 @@ function App() {
             <h1 className='title'>Results</h1>
             <hr/>
             <p style={{ color: 'white' }}>{profileData.reso}</p>
+
             
           </div>
         </div>
