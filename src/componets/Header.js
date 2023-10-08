@@ -15,11 +15,7 @@ const Header = () => {
               <a>Home</a>
             </Link>
             </li>
-            <li>
-            <Link to="/about">
-              <a>About Us</a>
-            </Link>
-            </li>
+            
           </ul>
         </nav>
         <style jsx>{`
@@ -27,11 +23,12 @@ const Header = () => {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 20px;
+            padding: 5px;
             background-color: #333;
             color: #fff;
             position: absolute;
             width: 100%;
+            
           }
   
           .logo {

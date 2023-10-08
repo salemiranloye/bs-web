@@ -10,23 +10,26 @@ html, body {
   }
 
   .app-body {
-    display: flex;
-    flex-direction: column;
+    display: fixed;
+  
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Use 100vh to set the height to the full viewport height */
+    
+    
   }
   
 
-.content{
+  .content {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    height: calc(100vh - 45px); /* Subtract the header height */
     text-align: center;
-    width: 100%;
-
-}
+    margin-left: 275px; /* Adjust the left margin for spacing */
+    padding: 20px; /* Add padding for spacing */
+  }
+  
 
 .disclaimer {
 position: absolute;
@@ -51,12 +54,14 @@ text-align: center;
     height: 80vh; /* Adjust to center the content vertically */
     padding: 40px;
     justify-content: space-between;
+    background-color: transparent; /* Set background color to transparent */
   }
+  
 
 .content {
     display: flex;
     flex-direction: column;
-    height: 60vh; /* Adjust to center the content vertically */
+    left: 300px; /* Adjust to center the content vertically */
   }
   
 .input-section {
@@ -111,10 +116,11 @@ text-align: center;
 }
 
 .Box {
-    width: 49%;
+    height: 20%;
+    width: 50%;
     border-radius: 20px;
-    background-color: #333;
-    padding: 20px;
+   
+    padding: 10px;
 }
 .Boxinput {
   width: 30%; /* Adjust the width as needed */

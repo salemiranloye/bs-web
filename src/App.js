@@ -35,7 +35,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+      <Header height="" />
       {!displayInfo ? (
         <div className="content">
           <div className="app-body">
@@ -63,18 +63,18 @@ function App() {
       ) : (
         <div className='results'>
           <div className='Boxinput'> 
-            <h1 className='title'>Was this Text Bias or Bull?</h1>
+            <h1 className='title'>Was this Text Bull?</h1>
             <hr/>
             <textarea
-              rows="35"
-              cols="110"
+              rows="20"
+              cols="50"
               className="input"
               placeholder="Enter the bull shi..."
               value={reSubmissionText}
               onChange={(e) => changeReSubmissionText(e.target.value)}
             />
             <div className='center'>
-              <button className="button" onClick={(e) => handleSubmit(e)}>
+              <button type="submit" className="button" onClick={(e) => handleSubmit(e)}>
                 <b>Re-Sniff</b>
               </button>
             </div>
