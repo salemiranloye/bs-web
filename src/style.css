@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #5c5c5c; /* Match your .App background color */
+    height: 100%;
+  }
+
+.app-body{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ height: 100%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    text-align: center;
+
+}
+
+.disclaimer {
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+background-color: #333;
+padding: 10px; /* Add padding for spacing */
+color: white; /* Adjust text color */
+text-align: center; 
+}
+
+.App {
+    background-color: #5c5c5c;
+    height: 100%;
+    width: 100%;
+  }
+
+  .results {
+    display: flex;
+    flex-direction: row;
+    height: 80vh; /* Adjust to center the content vertically */
+    padding: 40px;
+    justify-content: space-between;
+  }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 60vh; /* Adjust to center the content vertically */
+  }
+  
+.input-section {
+    margin-bottom: 20px;
+  }
+
+*{
+    box-sizing: border-box;
+}
+
+.button {
+    font-weight: 500;
+    font-family: 'Exo 2', sans-serif;
+    width: 100px;
+    height: 40px;
+    border-radius: 6px;
+    text-transform: capitalize;
+    border-color: #333;
+    box-shadow: none;
+    background: #c2c2c2;
+  }
+
+.center {
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: center;
+  }
+
+.input {
+    font-weight: 500;
+    font-family: 'Exo 2', sans-serif;
+    border-radius: 6px;
+    border-color: #333;
+    overflow-y: auto;
+}
+
+.title {
+    font-weight: 500;
+    font-family: 'Exo 2', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+}
+
+.line {
+  border: 2px #c2c2c2;
+  border-radius: 5px;
+}
+
+.Box {
+    width: 49%;
+    border-radius: 20px;
+    background-color: #333;
+    padding: 20px;
+}
+
+.text {
+    font-weight: 500;
+    font-family: 'Exo 2', sans-serif;
+    font-size: medium;
+    text-align: left;
+    color: white;
+}
